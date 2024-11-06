@@ -1,0 +1,22 @@
+@import url('home.css');
+
+/* Form Styling */
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: beige;
+    border: 2px solid darkgoldenrod;
+    border-radius:5%;
+    text-align: center;
+}
+.footer {
+    background-color: rgb(53, 25, 3);
+    color: darkgoldenrod;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 100%;
+}

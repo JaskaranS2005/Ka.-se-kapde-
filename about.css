@@ -1,0 +1,103 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20240410/pngtree-fashion-clothing-on-hangers-at-the-show-image_15653991.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+}
+
+
+.hdr {
+    background-color: darkgoldenrod;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+    border-bottom: 2px solid rgb(53, 25, 3);
+}
+
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(53, 25, 3);
+    padding: 10px;
+}
+
+.nav div {
+    margin: 0 20px;
+}
+
+.nav a {
+    color: darkgoldenrod;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav a:hover {
+    background-color: rgb(202, 125, 67);
+    color: beige;
+}
+
+
+.about-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+}
+
+.about-content {
+    background-color: rgba(255, 255, 255, 0.9);
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.about-content h2 {
+    color: rgb(53, 25, 3);
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about-content h3 {
+    color: darkgoldenrod;
+    margin-top: 20px;
+    font-size: 1.3em;
+}
+
+.about-content p {
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+.about-content ul {
+    list-style-type: disc;
+    margin: 10px 0 20px 20px;
+    text-align: left;
+}
+
+.about-content ul li {
+    margin: 8px 0;
+}
+
+
+.footer {
+    background-color: rgb(53, 25, 3);
+    color: darkgoldenrod;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

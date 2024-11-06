@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+</head>
+<body>
+    <header class="hdr">
+        <h1>क.</h1>
+        <h5>क से कपड़े - Login</h5>
+    </header>
+    <nav class="nav">
+        <div><a href="index.html">Home</a></div>
+        <div><a href="new.html">New Arrivals</a></div>
+        <div><a href="signup.html">Sign Up</a></div>
+    </nav>
+    <main class="form-container">
+        <form onsubmit="return handleLogin()">
+            <h2>Login</h2>
+            <label>Username:</label><br>
+            <input type="text" id="username" placeholder="Enter Username" required><br><br>
+            <label>Password:</label><br>
+            <input type="password" id="password" placeholder="Enter Password" required><br><br>
+            <button type="submit">Login</button>
+        </form>
+    </main>
+    <footer class="footer">
+        <p>क. &copy; Myntraa<br>All Rights Reserved &REG;</p>
+    </footer>
+
+    <!-- JavaScript for Login Redirect -->
+    <script>
+        function handleLogin() {
+            // Simulating login validation (you may replace this with real authentication)
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+            
+            if (username && password) {
+                alert("Login successful!");
+                window.location.href = "index.html";  // Redirect to home page
+                return false;  // Prevents form submission to server
+            } else {
+                alert("Please enter both username and password.");
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>
